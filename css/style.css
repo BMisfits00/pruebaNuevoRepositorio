@@ -2,9 +2,23 @@ body {
     background-color: red;
 }
 
+.lista_elemento :hover {
+    background-color: yellow;
+}
+
 .barraNav {
-    background-color: cadetblue;
+    background-color: black;
     height: 60px;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+}
+
+.lista_elemento {
+    text-decoration: none;
 }
 
 .titulo {
