@@ -9,16 +9,19 @@
     <title>Proyecto de Prueba</title>
 </head>
 <body>
+    <!-- <img src="multimedia/imagenes/imagen-fondo.avif" alt="imagenDeFondo"> -->
     <header>
         <nav>
             <div class="barraNav">
+
                 <ul class="lista">
-                    <li class="lista_elemento"><a class="lista_elemento_link" href="http://">Direccion 1</a></li>
-                    <li class="lista_elemento"><a class="lista_elemento_link" href="http://">Direccion 2</a></li>
-                    <li class="lista_elemento"><a class="lista_elemento_link" href="http://">Direccion 3</a></li>
-                    <li class="lista_elemento"><a class="lista_elemento_link" href="http://">Direccion 4</a></li>
-                    <li class="lista_elemento"><a class="lista_elemento_link" href="http://">Direccion 5</a></li>
+                    <li class="lista_elemento"><a href="http://">Direccion 1</a></li>
+                    <li class="lista_elemento"><a href="http://">Direccion 2</a></li>
+                    <li class="lista_elemento"><a href="http://">Direccion 3</a></li>
+                    <li class="lista_elemento"><a href="http://">Direccion 4</a></li>
+                    <li class="lista_elemento"><a href="http://">Direccion 5</a></li>
                 </ul>
+
             </div>
         </nav>
         <h1 class="titulo">Prueba</h1>
@@ -31,8 +34,10 @@
                 <div class="caja"> Caja 2</div>
                 <div class="caja" id="cajaEspecial"> Caja 3</div>
             </div>
+
+            <div class="contenedor-flex" id="parrafoAparte">
+            </div>
             
-            <p>contenedor</p>
         </div>
 
         <div class="contenedor">
@@ -43,6 +48,29 @@
                 <div class="caja"> Caja 1</div>
                 <div class="caja"> Caja 2</div>
                 <div class="caja" id="cajaEspecial"> Caja 3</div>
+            </div>
+
+        </div>
+
+        <div class="contenedor-flex" id="contenidoFormulario">
+            <div class="formulario">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                  <div class="botones">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <button type="button" class="btn btn-outline-warning">Warning</button>
+                  </div>
             </div>
 
         </div>
